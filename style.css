@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    width: 600px;
+    max-width: 90%;
+    background-color: #6db3c3;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff;
+  }
+  
+  input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 1rem;
+    background-color: #cac716;
+    border: 2px solid #212121;
+    border-radius: 18px;
+    color: #212121;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #b2a60e;
+  }
+  
+  #results, #remarks {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #fff;
+    text-align: center;
+  }
+  
+  #weight-guide {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-top: 1rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  #weight-guide h3 {
+    margin-bottom: 1rem;
+  }
+  
+  #weight-guide p {
+    margin: 0.5rem 0;
+  }
+  
